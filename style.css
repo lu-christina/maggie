@@ -61,7 +61,7 @@ img {
 }
 
 a {
-    color: #EAE7DC;
+    color: unset;
     height: 100%;
     width: 100%;
     text-decoration: none;
@@ -320,6 +320,10 @@ h3 {
     width: 2rem;
     height: 2rem;
     margin-right: 0.4rem;
+}
+
+#compass img {
+    width: 8rem;
 }
 
 .accounts p {
