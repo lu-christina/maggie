@@ -77,6 +77,11 @@ a {
     transition: all 0.7s ease-out;
 }
 
+.hoverblur:hover img {
+    filter: brightness(0.5);
+    transition: all 0.7s ease-out;
+}
+
 /* BACKGROUND IMAGE */
 
 .bgImage {
@@ -287,6 +292,7 @@ h3 {
     left: 0;
     z-index: 2;
     filter: brightness(0.7);
+    transition: all 0.7s ease-out;
 }
 
 .sale p {
