@@ -364,6 +364,14 @@ footer {
         flex-direction: row;
     }
 
+    .lText h2 {
+        margin-top: 0;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
     .salesBox {
         display: grid;
         grid-template-columns: 1fr 1fr;
