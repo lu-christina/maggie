@@ -253,6 +253,13 @@ h3 {
     margin: 1rem 0;
 }
 
+.testBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 /* PREVIOUS SALES */
 .salesBox {
     width: 100%;
@@ -444,6 +451,13 @@ footer {
     .testimonial {
         width: 80%;
         text-align: center;
+    }
+
+    .testBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 1rem;
+        width: 92%;
     }
 
     .salesBox .testimonial {
