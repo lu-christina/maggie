@@ -82,6 +82,10 @@ a {
     transition: all 0.7s ease-out;
 }
 
+.pageBtn {
+    text-align: end;
+}
+
 /* BACKGROUND IMAGE */
 
 .bgImage {
