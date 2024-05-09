@@ -452,16 +452,25 @@ footer {
         gap: 2rem;
     }
 
-    .testimonial {
-        width: 80%;
+    .lBox .testimonial {
+        width: 90%;
         text-align: center;
+    }
+
+    .testBox .testimonial {
+        width: 100%;
+        text-align: left;
     }
 
     .testBox {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-column-gap: 1rem;
+        grid-column-gap: 3rem;
         width: 92%;
+    }
+
+    .widerTest {
+        grid-column: span 2;
     }
 
     .salesBox .testimonial {
